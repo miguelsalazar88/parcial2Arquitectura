@@ -1,7 +1,8 @@
-#include <stdio.h>
 //Autores: Alejandro Bermúdez y Miguel Salazar
 //Versión: 1
 //Este es un programa que calcula el factorial de un número entero positivo;
+
+#include <stdio.h>
 
 //Declaración de la función:
 
