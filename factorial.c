@@ -18,7 +18,7 @@ int main() {
 
     //Leer dato del usuario:
     printf("**** Bienvenido al programa para calcular el factorial de un número entero positivo **** \n");
-    printf("\n Escriba un número entero positivo para calcular su factorial:");
+    printf("\nEscriba un número entero positivo para calcular su factorial:");
     scanf("%d", &numeroUsuario);
 
     printf("El factorial de %d es: %d \n",numeroUsuario, factorial(numeroUsuario));
