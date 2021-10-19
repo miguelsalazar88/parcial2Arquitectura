@@ -22,6 +22,8 @@ int main(){
     printf("Por favor digite el tamaño de la matriz: ");
     scanf("%d", &tamanio);
     int matriz[tamanio][tamanio];
+    
+    //Se implementa la lógica y se muestran la matriz y el resultado de la suma.
 
     initMatriz(tamanio, matriz);
     printf("La matriz es: \n");
