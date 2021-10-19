@@ -18,7 +18,8 @@ int main(){
     int tamanio, i;
 
     //Se le pide al usuario determinar el tamaño del arreglo y los valores;
-
+    printf("**** Bienvenido al programa que suma todos los elementos de un arreglo **** \n");
+    printf("\n");
     printf("Por favor ingrese el tamaño del arreglo (entre 1 y 10):");
     scanf("%d", &tamanio);
     
