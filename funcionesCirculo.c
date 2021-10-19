@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-//Declaración de la función:
+//Declaración de las funciones:
 
 double diametro(double radio);
 double circunferencia(double radio);
