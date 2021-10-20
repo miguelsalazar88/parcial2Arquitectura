@@ -43,6 +43,7 @@ int busquedaBinaria(int array[], int indexInicio, int indexFinal, int num){
 
       int mitad = indexInicio + (indexFinal- indexInicio )/2;
         if (array[mitad] == num){
+            iteraciones++;
             printf("Número %d entontrado después de %d iteraciones. \n", num, iteraciones);
             return mitad;
         }
