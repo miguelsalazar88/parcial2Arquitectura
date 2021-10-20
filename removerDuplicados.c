@@ -45,14 +45,13 @@ void removerDuplicados(int arr[], int tamanio){
     int k;
 
     for(i = 0; i<tamanio; i++){ //Recorre el arreglo
-        for(j = 0; j < tamanio; j++){//Segundo recorrido para comparar
+        for(j = 0; j < tamanio; j++){ //Segundo recorrido para comparar
             if(j != i){ //i tiene que ser distinto a j porque siempre va a ser duplicado
-                if(arr[i] == arr[j]){ //comfirma si es igual
-                    
+                if(arr[i] == arr[j]){ //comfirma si es igual   
                     for(k = 0; k < tamanio; k++){
                         arr[j] = arr[j+1];
                     }
-                    tamanio --;
+                    tamanio --; //Disminuye el tamaño del arreglo;
                 }
             }
         }

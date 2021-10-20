@@ -1,6 +1,6 @@
 // Autores: Diego Bermúdez y Miguel Salazar
 // Versión 1
-// Este programa verifica si un número ingresado por el usuario es par o impar.
+// Este programa suma las diagonales de una matriz.
 
 #include <stdio.h>
 
