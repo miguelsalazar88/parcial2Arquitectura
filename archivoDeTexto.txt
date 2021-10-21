@@ -1,0 +1,5 @@
+Inicio.
+Este es un archivo de texto.
+Me van a utilizar para la sección 11 del parcial.
+Mis autores son Miguel Salazar y Diego Bermúdez.
+Fin.
