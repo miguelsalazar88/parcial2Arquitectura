@@ -17,6 +17,9 @@ int main(){
     int arr[] = {1,2,3,1,4,2,1,6,1};
     int tamanio = 9;
 
+    printf("**** Bienvenido al programa que remueve elementos duplicados en un arreglo **** \n");
+    printf("\n");
+
     //Se aplica la lógica y se imprime el resultado.
 
     printf("Arreglo original: \n");

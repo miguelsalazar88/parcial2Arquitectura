@@ -25,6 +25,7 @@ int main(){
     while(!feof(pointerLeer)){
 
         fgets(linea,150,pointerLeer); //Recibe la linea y la ubica en linea[]
+        printf("%s \n", linea);
         fprintf(pointerEscribir,"%s",linea); //Escribe el texto en el nuevo archivo.
     }
 
