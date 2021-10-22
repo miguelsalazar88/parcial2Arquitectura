@@ -1,6 +1,6 @@
 // Autores: Diego Bermúdez y Miguel Salazar
 // Versión 1
-// Este programa implementa el algoritmo Merge Sort.
+// Este programa implementa el algoritmo Selection Sort.
 
 #include <stdio.h>
 //Declaración de la función:
