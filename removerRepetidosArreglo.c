@@ -1,14 +1,14 @@
-// Autores: Diego Bermúdez y Miguel Salazar
-// Versión 1
+// Autores: Diego Bermï¿½dez y Miguel Salazar
+// Versiï¿½n 1
 // Este programa elimina los caracteres repetidos en un string. 
 
 #include <stdio.h>
 
-//Declaración de la función:
+//Declaraciï¿½n de la funciï¿½n:
 
 void remover(int numero[],int n[],int tamanio);
 int contiene(int n,int numeros[],int tamanio);
-//Método main.
+//Mï¿½todo main.
 
 int main(){
     int numeross[] = {1,36,40,8,2, 3,40,30,9,10,15,2},n[12],i;    
@@ -20,12 +20,13 @@ int main(){
         n[i]=0;
     }
     
-	printf("\nSin numeros repetidos es: \n",numeross);
+	printf("\nSin numeros repetidos es: \n");
     remover(numeross,n,12);
+    printf("\n");
     return 0;
 }
 
-//Definición de las funciones
+//Definiciï¿½n de las funciones
 
 void remover(int numeros[],int n[],int tamanio)
 {

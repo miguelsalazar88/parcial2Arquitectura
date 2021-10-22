@@ -11,9 +11,9 @@ void concatenar(char palabra1[],char palabra2[]);
 int main(){
     char palabra1[6],palabra2[6];
     printf("Ingrese la primera palabra (debe tener maximo 5 caracteres)\n");
-    scanf("%s",&palabra1);
+    scanf("%s", palabra1);
     printf("Ingrese la segunda palabra (debe tener maximo 5 caracteres)\n");
-    scanf("%s",&palabra2);
+    scanf("%s", palabra2);
     concatenar(palabra1,palabra2);
     return 0;
 }

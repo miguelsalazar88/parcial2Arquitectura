@@ -15,7 +15,7 @@ int main(){
     scanf("%d",&tamanio);
     char palabra [tamanio];
     printf("Ingrese la palabra que desea analizar si es palindroma o no\n");
-    scanf("%s",&palabra);
+    scanf("%s", palabra);
     palindroma(tamanio,palabra);
     return 0;
 }

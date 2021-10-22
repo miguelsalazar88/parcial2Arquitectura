@@ -41,4 +41,5 @@ int potenciaR(int numero,int potencia)
     {
         return potenciaR(numero,potencia-1)*numero;
     }
+    return -1;
 }

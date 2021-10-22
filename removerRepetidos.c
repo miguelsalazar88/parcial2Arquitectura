@@ -14,7 +14,7 @@ int main(){
     char palabra[20],p[20];
     int i;
     printf("Ingrese la palabra (debe tener 20 caracteres)\n");
-    scanf("%s",&palabra);
+    scanf("%s", palabra);
     printf("La palabra %s sin letras repetidas es: ",palabra);
     for(i=0;i<20;i++)
     {

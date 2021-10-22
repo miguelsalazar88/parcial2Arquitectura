@@ -11,7 +11,7 @@ int conteo(char palabra1[]);
 int main(){
     char palabra1[20];
     printf("Ingrese la palabra (debe tener maximo 20 caracteres)\n");
-    scanf("%s",&palabra1);
+    scanf("%s", palabra1);
     printf("La palabra %s tiene %d caracteres \n",palabra1,conteo(palabra1));
     return 0;
 }

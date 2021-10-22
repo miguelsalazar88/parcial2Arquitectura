@@ -45,6 +45,7 @@ void primeraOcurrencia(char c, char palabra[]){
         if(palabra[i] == c){
             encontrada = true;
             printf("\nLa primera ocurrencia de %c se encuentra en el indice %d de la palabra %s. \n", c, i, palabra);
+            break;
         }
     }
 

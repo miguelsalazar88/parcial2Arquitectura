@@ -12,9 +12,9 @@ char* contiene(char letra,char palabra[],int tamanio);
 int main(){
     char palabra1[6],palabra2[6];
     printf("Ingrese la primera palabra (debe tener 6 caracteres)\n");
-    scanf("%s",&palabra1);
+    scanf("%s", palabra1);
     printf("Ingrese la segunda palabra (debe tener 6 caracteres)\n");
-    scanf("%s",&palabra2);
+    scanf("%s", palabra2);
     anagrama(palabra1,palabra2);
     return 0;
 }

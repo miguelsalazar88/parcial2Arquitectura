@@ -13,7 +13,7 @@ int main(){
     printf("Ingrese la letra que desea contar \n");
     scanf("%c",&letra);
     printf("Ingrese la palabra (debe tener maximo 6 caracteres)\n");
-    scanf("%s",&palabra);
+    scanf("%s", palabra);
     int cantidad=0;
     cantidad=conteo(palabra,letra,6);
     printf("La letra %c se encuentra %d veces en la palabra %s ",letra,cantidad,palabra);
