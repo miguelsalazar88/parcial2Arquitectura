@@ -1,4 +1,4 @@
-all: binarySearch bubbleSort calculadora comparaStrings copiarContenido factorial fibonacci funcionesCirculo interesSimple leerTexto linearSeach matricesIguales numeroDeDigitos ocurrenciaString parOImpar removerDuplicados removerVocales selectionSort sumaDeArray sumaDiagonalMatrices tablaMultiplicacion vocalOConsonante manejoArchivos insercionSort seleccionSort busquedaBinariaRecursiva tamanioArregloApuntadores comprobarStrings concatenarApuntadores factorialRecursivo potenciaRecursiva anagrama removerRepetidos conteoCaracter palindroma sumaMatrices numeroMayorSwitchCase reversoDeUnNumero areaCirculo numeroMayor
+all: binarySearch bubbleSort calculadora comparaStrings copiarContenido factorial fibonacci funcionesCirculo interesSimple leerTexto linearSearch matricesIguales numeroDeDigitos ocurrenciaString parOImpar removerDuplicados removerVocales selectionSort sumaDeArray sumaDiagonalMatrices tablaMultiplicacion vocalOConsonante manejoArchivos insercionSort seleccionSort busquedaBinariaRecursiva tamanioArregloApuntadores comprobarStrings concatenarApuntadores factorialRecursivo potenciaRecursiva anagrama removerRepetidos conteoCaracter palindroma sumaMatrices numeroMayorSwitchCase reversoDeUnNumero areaCirculo numeroMayor
 
 binarySearch: binarySearch.c
 	gcc -o binarySearch binarySearch.c
@@ -30,8 +30,8 @@ interesSimple: interesSimple.c
 leerTexto: leerTexto.c
 	gcc -o leerTexto leerTexto.c
 
-linearSeach: linearSeach.c
-	gcc -o linearSeach linearSeach.c
+linearSeach: linearSearch.c
+	gcc -o linearSeach linearSearch.c
 
 matricesIguales: matricesIguales.c
 	gcc -o matricesIguales matricesIguales.c
