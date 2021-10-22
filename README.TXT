@@ -13,6 +13,16 @@ Adicionalmente, contiene un documento .pdf de nombre SALAZAR_BERMUDEZ_DOCUMENTO_
 en el cual se describe brevemente cada uno de los programas, además de una captura
 de pantalla de la ejecución de cada uno de ellos.
 
+INSTRUCCIONES DE INSTALACION:
+
+1. Clonar el repositorio en un nuevo fichero.
+2. En una pestaña de Terminal con ubicación en el fichero, ejecutar el Makefile 
+   mediante el comando < make >. Este comando creará automáticamente los ejecutables
+   de cada uno de los archivos .c.
+3. Elegir cualquiera de los ejecutables (por ejemplo sumaDeArray) y ejecutarlo en 
+   Terminal mediante el comando ./<nombre del ejecutable> (Por ejemplo: ./sumaDeArray).
+
+
 Este repositorio consta de 38 archivos .c, con nombre:
 
 anagrama
